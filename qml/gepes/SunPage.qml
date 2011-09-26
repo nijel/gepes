@@ -7,7 +7,6 @@ import "./sun.js" as Sun
 
 Page {
     tools: commonTools
-    //property int julian_date: Math.floor((Date().t.valueOf() / (1000 * 60 * 60 * 24)) - 0.5) + 2440588;
 
     Grid {
         columns: screen.currentOrientation == Screen.Landscape || screen.currentOrientation == Screen.LandscapeInverted ? 2 : 1
