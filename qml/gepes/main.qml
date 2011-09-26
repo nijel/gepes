@@ -15,7 +15,6 @@ PageStackWindow {
         id: positionSource
         updateInterval: 1000
         active: true
-        // nmeaSource: "nmealog.txt"
     }
 
     ToolBarLayout {
