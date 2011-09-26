@@ -1,26 +1,46 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
+import QtMobility.sensors 1.2
 
 Page {
     tools: commonTools
 
-    Column {
-        spacing: 25
-        anchors.margins: 25
+    property int orientationAngle: 0
 
-        Label {
-            text: qsTr("Compass")
-            font.pixelSize: 26
-            font.weight: Font.DemiBold
-        }
+    Image {
+        id: windrose
+        source: "../../images/windrose.svg"
+        fillMode: Image.PreserveAspectFit
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.fill: parent
+        anchors.bottomMargin: 30
+    }
+    Image {
+        id: compassArrow
+        anchors.bottom: windrose.verticalCenter
+        anchors.horizontalCenter: windrose.horizontalCenter
+        height: windrose.paintedHeight / 2
+        fillMode: Image.PreserveAspectFit
+        source: "../../images/north_arrow.svg"
+        rotation: - compass.azimuth - orientationAngle
+        transformOrigin: Item.Bottom
+    }
+    Label {
+        text: qsTr("Azimuth:") + " " + compass.azimuth + " (accurancy " + compass.calibration + ")"
+        anchors.bottom: parent.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.margins: 10
+    }
+    OrientationSensor {
+        id: orientation
+        active: true
 
-        Label {
-            text: qsTr("Azimuth:") + " " + compass.azimuth + " (accurancy " + compass.calibration + ")"
-        }
-
-        Image {
-            id: windrose
-            source: "../../images/windrose.svg"
+        onReadingChanged: {
+            if (reading.orientation == OrientationReading.TopUp) {
+                orientationAngle = 0;
+            } else if (reading.orientation == OrientationReading.RightUp) {
+                orientationAngle = 90;
+            }
         }
     }
 }
