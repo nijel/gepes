@@ -1,6 +1,7 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
 import QtMobility.location 1.1
+import QtMobility.sensors 1.1
 
 PageStackWindow {
     id: appWindow
@@ -15,9 +16,21 @@ PageStackWindow {
         id: sunPage
     }
 
+    CompassPage {
+        id: compassPage
+    }
+
     PositionSource {
         id: positionSource
         updateInterval: 1000
+        active: true
+    }
+
+    Compass {
+        id: compass
+        onReadingChanged: {azimuth = compass.reading.azimuth; calibration = compass.reading.calibrationLevel; }
+        property real azimuth: 0
+        property real calibration: 0
         active: true
     }
 

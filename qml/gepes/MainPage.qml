@@ -11,13 +11,15 @@ Page {
         anchors.left: parent.left
         anchors.bottom: parent.bottom
         anchors.right: parent.right
-        spacing: 10
+        spacing: 25
 
         Column {
             spacing: 25
 
             Label {
                 text: qsTr("Position")
+                font.pixelSize: 26
+                font.weight: Font.DemiBold
             }
 
             Label {
@@ -39,9 +41,20 @@ Page {
         Column {
             spacing: 25
 
+            Label {
+                text: qsTr("Tools")
+                font.pixelSize: 26
+                font.weight: Font.DemiBold
+            }
+
             Button {
                 text: qsTr("Sun & moon")
                 onClicked: appWindow.pageStack.push(sunPage)
+            }
+
+            Button {
+                text: qsTr("Compass")
+                onClicked: appWindow.pageStack.push(compassPage)
             }
 
         }
