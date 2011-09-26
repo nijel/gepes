@@ -20,6 +20,10 @@ PageStackWindow {
         id: compassPage
     }
 
+    GPSPage {
+        id: gpsPage
+    }
+
     PositionSource {
         id: positionSource
         updateInterval: 1000

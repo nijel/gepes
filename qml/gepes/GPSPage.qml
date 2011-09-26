@@ -42,24 +42,17 @@ Page {
             spacing: 25
 
             Label {
-                text: qsTr("Tools")
+                text: qsTr("Accurancy")
                 font.pixelSize: 26
                 font.weight: Font.DemiBold
             }
 
-            Button {
-                text: qsTr("Sun & moon")
-                onClicked: appWindow.pageStack.push(sunPage)
+            Label {
+                text: qsTr("Vertical:") + " " + (positionSource.position.verticalAccuracyValid ? "± " + printNum(positionSource.position.verticalAccuracy) + " m"  : qsTr("N/A"))
             }
 
-            Button {
-                text: qsTr("Compass")
-                onClicked: appWindow.pageStack.push(compassPage)
-            }
-
-            Button {
-                text: qsTr("GPS details")
-                onClicked: appWindow.pageStack.push(gpsPage)
+            Label {
+                text: qsTr("Horizontal:") + " " + (positionSource.position.horizontalAccuracyValid ? "± " + printNum(positionSource.position.horizontalAccuracy) + " m"  : qsTr("N/A"))
             }
 
         }
