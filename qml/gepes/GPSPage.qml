@@ -1,5 +1,6 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
+import QtMobility.location 1.1
 
 Page {
     tools: commonTools
@@ -55,10 +56,25 @@ Page {
                 text: qsTr("Horizontal:") + " " + (positionSource.position.horizontalAccuracyValid ? "± " + printNum(positionSource.position.horizontalAccuracy) + " m"  : qsTr("N/A"))
             }
 
+            Label {
+                text: qsTr("Source:") + " " + printableMethod(positionSource.positioningMethod)
+            }
+
         }
     }
 
     function printNum(num) {
         return Math.round(num) / 10;
+    }
+    function printableMethod(method) {
+        if (method == PositionSource.SatellitePositioningMethod)
+            return "Satellite";
+        else if (method == PositionSource.NoPositioningMethod)
+            return "Not available"
+        else if (method == PositionSource.NonSatellitePositioningMethod)
+            return "Non-satellite"
+        else if (method == PositionSource.AllPositioningMethods)
+            return "All/multiple"
+        return "source error";
     }
 }
