@@ -1,5 +1,6 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
+import QtMobility.location 1.1
 
 PageStackWindow {
     id: appWindow
@@ -8,6 +9,13 @@ PageStackWindow {
 
     MainPage {
         id: mainPage
+    }
+
+    PositionSource {
+        id: positionSource
+        updateInterval: 1000
+        active: true
+        // nmeaSource: "nmealog.txt"
     }
 
     ToolBarLayout {

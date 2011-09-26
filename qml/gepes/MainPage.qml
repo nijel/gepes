@@ -4,20 +4,34 @@ import com.nokia.meego 1.0
 Page {
     tools: commonTools
 
-    Label {
-        id: label
-        anchors.centerIn: parent
-        text: qsTr("Hello world!")
-        visible: false
+    Column {
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+
+        spacing: 5
+
+        Label {
+            text: qsTr("Position")
+        }
+
+        Label {
+            text: qsTr("Latitude:") + " " + (positionSource.position.latitudeValid ? positionSource.position.coordinate.latitude : qsTr("N/A"))
+        }
+
+        Label {
+            text: qsTr("Longitude:") + " " + (positionSource.position.longitudeValid ? positionSource.position.coordinate.longitude : qsTr("N/A"))
+        }
+
+        Label {
+            text: qsTr("Altitude:") + " " + (positionSource.position.altitudeValid ? printNum(positionSource.position.coordinate.altitude) + " m" : qsTr("N/A"))
+        }
+
+        Label {
+            text: qsTr("Speed:") + " " + (positionSource.position.speedValid ? printNum(positionSource.position.speed) + " m/s" : qsTr("N/A"))
+        }
     }
 
-    Button{
-        anchors {
-            horizontalCenter: parent.horizontalCenter
-            top: label.bottom
-            topMargin: 10
-        }
-        text: qsTr("Click here!")
-        onClicked: label.visible = true
+    function printNum(num) {
+        return Math.round(num) / 10;
     }
 }
