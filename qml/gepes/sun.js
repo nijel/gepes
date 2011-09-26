@@ -137,3 +137,14 @@ function get_sun_rise(latitude, longitude) {
     var dt = new Date();
     return sun_rise(dt, latitude, longitude);
 }
+
+function moon_phase(dt) {
+    var start = new Date(1900, 0, 1);
+    return ((julian_date(dt) - julian_date(start)) % 29.530588853) / 29.530588853;
+}
+
+function get_moon_phase() {
+    var dt = new Date();
+    return moon_phase(dt);
+}
+

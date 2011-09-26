@@ -40,7 +40,7 @@ Page {
             spacing: 25
 
             Button {
-                text: qsTr("Sunrise")
+                text: qsTr("Sun & moon")
                 onClicked: appWindow.pageStack.push(sunPage)
             }
 

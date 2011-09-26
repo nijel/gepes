@@ -47,6 +47,23 @@ Page {
                 font.weight: Font.DemiBold
             }
 
+            Label {
+                id: moon_phase;
+                property double phase: Sun.get_moon_phase() * 100;
+                property string phase_name: (moon_phase < 1 ? qsTr("New moon") :
+                                             moon_phase < 24 ? qsTr("Waxing crescent") :
+                                             moon_phase < 26 ? qsTr("First quarter") :
+                                             moon_phase < 49 ? qsTr("Waxing gibbous") :
+                                             moon_phase < 51 ? qsTr("Full moon") :
+                                             moon_phase < 74 ? qsTr("Waning gibbous") :
+                                             moon_phase < 76 ? qsTr("Last quarter") :
+                                             moon_phase < 99 ? qsTr("Waning crescent ") :
+                                             qsTr("Dark moon"));
+                text: qsTr("Moon phase:") + " " + Math.round(phase) + " % (" + phase_name + ")";
+            }
+
+
+
         }
     }
 }
