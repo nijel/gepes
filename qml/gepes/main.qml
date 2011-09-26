@@ -11,6 +11,10 @@ PageStackWindow {
         id: mainPage
     }
 
+    SunPage {
+        id: sunPage
+    }
+
     PositionSource {
         id: positionSource
         updateInterval: 1000
@@ -21,12 +25,16 @@ PageStackWindow {
         id: commonTools
         visible: true
         ToolIcon {
+            iconId: "toolbar-back";
+            onClicked: { myMenu.close(); pageStack.pop(); }
+            visible: (pageStack.depth > 1);
+        }
+        ToolIcon {
             platformIconId: "toolbar-view-menu"
             anchors.right: (parent === undefined) ? undefined : parent.right
             onClicked: (myMenu.status == DialogStatus.Closed) ? myMenu.open() : myMenu.close()
         }
     }
-
     Menu {
         id: myMenu
         visualParent: pageStack
