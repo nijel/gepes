@@ -34,10 +34,10 @@ Page {
                 maximumValue: 60000
                 stepSize: 1000
                 value: 0
-                onValueChanged: if (minimumValue == 0) {
-                                    Settings.setSetting("refresh-rate", value);
-                                    setRefreshRate();
-                                }
+                onVisibleChanged: if (!visible && minimumValue == 0) {
+                                      Settings.setSetting("refresh-rate", value);
+                                      setRefreshRate();
+                                  }
             }
 
         }
@@ -59,4 +59,6 @@ Page {
         refreshSlider.value = Settings.getSetting("refresh-rate", 0);
         refreshSlider.minimumValue = 0
     }
+
+    Component.onDestruction: console.log("Nested Destruction Beginning!")
 }
