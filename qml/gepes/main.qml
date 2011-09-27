@@ -88,6 +88,7 @@ PageStackWindow {
     Component.onCompleted: {
         Settings.initialize();
         setRefreshRate();
+        theme.inverted = true;
     }
 
     function setRefreshRate() {
