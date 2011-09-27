@@ -28,3 +28,8 @@ function fmt_lon(val) {
     }
     return to_deg(val) + dir;
 }
+
+
+function printNum(num) {
+    return Math.round(num) / 10;
+}

@@ -3,6 +3,8 @@ import com.nokia.meego 1.0
 import QtMobility.location 1.1
 import QtMobility.sensors 1.1
 
+import "./settings.js" as Settings
+
 PageStackWindow {
     id: appWindow
 
@@ -24,9 +26,12 @@ PageStackWindow {
         id: gpsPage
     }
 
+    SettingsPage {
+        id: settingsPage
+    }
+
     PositionSource {
         id: positionSource
-        updateInterval: 1000
         active: true
     }
 
@@ -42,9 +47,16 @@ PageStackWindow {
         id: commonTools
         visible: true
         ToolIcon {
-            iconId: "toolbar-back";
-            onClicked: { /*myMenu.close();*/ pageStack.pop(); }
-            visible: (pageStack.depth > 1);
+            iconId: pageStack.depth > 1 ? "toolbar-back" : "toolbar-back-dimmed";
+            onClicked: { if (pageStack.depth > 1) { /*myMenu.close();*/ pageStack.pop();} }
+        }
+        ToolIcon {
+            iconId: "toolbar-refresh";
+            onClicked: {positionSource.update();}
+        }
+        ToolIcon {
+            iconId: "toolbar-settings";
+            onClicked: appWindow.pageStack.push(settingsPage)
         }
         ToolIcon {
             platformIconId: "toolbar-application";
@@ -73,4 +85,18 @@ PageStackWindow {
         id: aboutDialog;
     }
 
+    Component.onCompleted: {
+        Settings.initialize();
+        setRefreshRate();
+    }
+
+    function setRefreshRate() {
+        var rate = Settings.getSetting("refresh-rate", 15000);
+        positionSource.updateInterval = rate;
+        if (rate == 0) {
+            compass.dataRate = 0;
+        } else {
+            compass.dataRate = 1 / (rate / 1000);
+        }
+    }
 }
