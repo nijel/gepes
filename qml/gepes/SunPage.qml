@@ -16,12 +16,6 @@ Page {
         anchors.right: parent.right
         spacing: 25
 
-        Label {
-            text: qsTr("Date")
-            font.pixelSize: 26
-            font.weight: Font.DemiBold
-        }
-
         ButtonRow {
             exclusive: false
 
@@ -81,6 +75,10 @@ Page {
                     property string phase_name: get_phase_name(phase)
                     text: qsTr("Moon phase:") + " " + Math.round(phase) + " % (" + phase_name + ")";
                 }
+
+                Image {
+                    source: get_moon_image(moon_phase.phase)
+                }
             }
         }
     }
@@ -111,5 +109,10 @@ Page {
         } else {
             return qsTr("Dark moon");
         }
+    }
+
+    function get_moon_image(phase) {
+        var num = Math.round(phase / 10) % 10;
+        return "../../images/moon-" + num + "0.png";
     }
 }
