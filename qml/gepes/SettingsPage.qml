@@ -59,6 +59,4 @@ Page {
         refreshSlider.value = Settings.getSetting("refresh-rate", 0);
         refreshSlider.minimumValue = 0
     }
-
-    Component.onDestruction: console.log("Nested Destruction Beginning!")
 }
