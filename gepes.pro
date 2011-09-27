@@ -41,7 +41,11 @@ OTHER_FILES += \
     qtc_packaging/debian_harmattan/control \
     qtc_packaging/debian_harmattan/compat \
     qtc_packaging/debian_harmattan/changelog \
-    images/windrose.svg
+    images/windrose.svg \
+    gepes200.png \
+    gepes64.png
+
+
 
 
 
