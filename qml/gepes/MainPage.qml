@@ -1,6 +1,8 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
 
+import "./gps.js" as GPS
+
 Page {
     tools: commonTools
 
@@ -23,11 +25,11 @@ Page {
             }
 
             Label {
-                text: qsTr("Latitude:") + " " + (positionSource.position.latitudeValid ? positionSource.position.coordinate.latitude : qsTr("N/A"))
+                text: qsTr("Latitude:") + " " + (positionSource.position.latitudeValid ? GPS.fmt_lat(positionSource.position.coordinate.latitude) : qsTr("N/A"))
             }
 
             Label {
-                text: qsTr("Longitude:") + " " + (positionSource.position.longitudeValid ? positionSource.position.coordinate.longitude : qsTr("N/A"))
+                text: qsTr("Longitude:") + " " + (positionSource.position.longitudeValid ? GPS.fmt_lon(positionSource.position.coordinate.longitude) : qsTr("N/A"))
             }
 
             Label {
