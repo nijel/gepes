@@ -48,6 +48,7 @@ Page {
             Label {
                 text: qsTr("Appearance")
                 font.pixelSize: 26
+                visible: false
                 font.weight: Font.DemiBold
             }
 
