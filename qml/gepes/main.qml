@@ -52,7 +52,7 @@ PageStackWindow {
         }
         ToolIcon {
             iconId: "toolbar-refresh";
-            onClicked: {positionSource.update();}
+            onClicked: update()
         }
         ToolIcon {
             iconId: "toolbar-settings";
@@ -98,5 +98,9 @@ PageStackWindow {
         } else {
             compass.dataRate = 1 / (rate / 1000);
         }
+    }
+
+    function update() {
+        positionSource.update();
     }
 }
