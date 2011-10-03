@@ -23,7 +23,7 @@ Page {
             spacing: 25
 
             Label {
-                text: qsTr("Accurancy")
+                text: qsTr("Accuracy")
                 font.pixelSize: 26
                 font.weight: Font.DemiBold
             }
