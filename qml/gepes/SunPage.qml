@@ -49,45 +49,81 @@ Page {
                     font.weight: Font.DemiBold
                 }
 
-                Label {
-                    id: sun_rise
-                    property double julian: Sun.sun_rise(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude);
-                    property date date: Sun.calendar_date(julian)
-                    text: qsTr("Sun rise:") + " " + Qt.formatTime(date, Qt.DefaultLocaleLongDate)
-                }
-                Label {
-                    id: sun_noon
-                    property double julian: Sun.solar_transit(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude);
-                    property date date: Sun.calendar_date(julian)
-                    text: qsTr("Solar noon:") + " " + Qt.formatTime(date, Qt.DefaultLocaleLongDate)
-                }
+                Grid {
+                    spacing: 25
+                    columns: 2
 
-                Label {
-                    id: sun_set
-                    property double julian: Sun.sun_set(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
-                    property date date: Sun.calendar_date(julian)
-                    text: qsTr("Sun set:") + " " + Qt.formatTime(date, Qt.DefaultLocaleLongDate)
-                }
+                    Label {
+                        text: qsTr("Sun rise:")
+                    }
 
+                    Label {
+                        id: sun_rise
+                        property double julian: Sun.sun_rise(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude);
+                        property date date: Sun.calendar_date(julian)
+                        text: Qt.formatTime(date, Qt.DefaultLocaleLongDate)
+                    }
+
+                    Label {
+                        text: qsTr("Solar noon:")
+                    }
+
+                    Label {
+                        id: sun_noon
+                        property double julian: Sun.solar_transit(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude);
+                        property date date: Sun.calendar_date(julian)
+                        text: Qt.formatTime(date, Qt.DefaultLocaleLongDate)
+                    }
+
+                    Label {
+                        text: qsTr("Sun set:")
+                    }
+
+                    Label {
+                        id: sun_set
+                        property double julian: Sun.sun_set(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
+                        property date date: Sun.calendar_date(julian)
+                        text: Qt.formatTime(date, Qt.DefaultLocaleLongDate)
+                    }
+                }
             }
 
             Column {
+
                 Label {
                     text: qsTr("Azimuth")
                     font.pixelSize: 26
                     font.weight: Font.DemiBold
                 }
 
-                Button {
-                    id: sun_rise_azimuth
-                    property double angle: Sun.sun_azimuth(sun_rise.date, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
-                    text: qsTr("Sun rise:") + " " + GPS.to_deg(angle)
-                }
+                Grid {
+                    columns: 3
+                    spacing: 25
 
-                Button {
-                    id: sun_set_azimuth
-                    property double angle: Sun.sun_azimuth(sun_set.date, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
-                    text: qsTr("Sun set:") + " " + GPS.to_deg(angle)
+                    Label {
+                        text: qsTr("Sun rise:")
+                    }
+                    Label {
+                        id: sun_rise_azimuth
+                        property double angle: Sun.sun_azimuth(sun_rise.date, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
+                        text: GPS.to_deg(angle)
+
+                    }
+                    ListButton {
+                        text: ">>"
+                    }
+
+                    Label {
+                        text: qsTr("Sun set:")
+                    }
+                    Label {
+                        id: sun_set_azimuth
+                        property double angle: Sun.sun_azimuth(sun_set.date, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
+                        text: GPS.to_deg(angle)
+                    }
+                    ListButton {
+                        text: ">>"
+                    }
                 }
             }
         }
