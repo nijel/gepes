@@ -4,7 +4,7 @@ import com.nokia.meego 1.0
 import com.nokia.extras 1.1
 
 import "./sun.js" as Sun
-
+import "./gps.js" as GPS
 
 Page {
     tools: commonTools
@@ -73,9 +73,21 @@ Page {
 
             Column {
                 Label {
+                    text: qsTr("Azimuth")
+                    font.pixelSize: 26
+                    font.weight: Font.DemiBold
+                }
+
+                Button {
+                    id: sun_rise_azimuth
+                    property double angle: Sun.sun_azimuth(sun_rise.date, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
+                    text: qsTr("Sun rise:") + " " + GPS.to_deg(angle)
+                }
+
+                Button {
                     id: sun_set_azimuth
                     property double angle: Sun.sun_azimuth(sun_set.date, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
-                    text: angle
+                    text: qsTr("Sun set:") + " " + GPS.to_deg(angle)
                 }
             }
         }

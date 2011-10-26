@@ -136,10 +136,16 @@ function sun_rise(dt, latitude, longitude) {
 
 function sun_azimuth(dt, latitude, longitude) {
     var D = sun_declination(dt, latitude, longitude);
-    var H = hour_angle(dt, latitude, longitude);
+    var t = solar_transit(dt, latitude, longitude);
+    var j = julian_date(dt);
+    var h = 15 * 24 * (j - t);
     var S = solar_elevation(dt, latitude, longitude);
-    var ret = acos((sin(D) * cos(latitude) - cos(H) * cos(D) * sin(latitude)) / cos(S));
-    return ret;
+    var ret = acos((sin(D) * cos(latitude) - cos(h) * cos(D) * sin(latitude)) / cos(S));
+    if (h < 0) {
+        return ret;
+    } else {
+        return ret + 180;
+    }
 }
 
 function moon_phase(dt) {
