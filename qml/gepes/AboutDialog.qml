@@ -45,12 +45,20 @@ import com.meego 1.0
         }
     }
 
-    buttons: ButtonRow {
+    buttons: ButtonColumn {
         style: ButtonStyle { }
         anchors.horizontalCenter: parent.horizontalCenter
         Button {
-            text: "OK";
+            text: qsTr("Ok");
             onClicked: aboutDialog.accept()
+        }
+        Button {
+            text: qsTr("Open website");
+            onClicked: Qt.openUrlExternally('http://gitorious.org/gepes')
+        }
+        Button {
+            text: qsTr("Donate")
+            onClicked: Qt.openUrlExternally('http://cihar.com/donate/')
         }
     }
 }
