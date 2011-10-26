@@ -52,8 +52,16 @@ Page {
                 Label {
                     id: sun_rise
                     property double julian: Sun.sun_rise(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude);
-                    text: qsTr("Sun rise:") + " " + Qt.formatTime(Sun.calendar_date(julian), Qt.DefaultLocaleLongDate)
+                    property date date: Sun.calendar_date(julian)
+                    text: qsTr("Sun rise:") + " " + Qt.formatTime(date, Qt.DefaultLocaleLongDate)
                 }
+                Label {
+                    id: sun_noon
+                    property double julian: Sun.solar_transit(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude);
+                    property date date: Sun.calendar_date(julian)
+                    text: qsTr("Solar noon:") + " " + Qt.formatTime(date, Qt.DefaultLocaleLongDate)
+                }
+
                 Label {
                     id: sun_set
                     property double julian: Sun.sun_set(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
