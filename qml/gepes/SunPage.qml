@@ -1,6 +1,7 @@
 import Qt 4.7
 import QtQuick 1.1
 import com.nokia.meego 1.0
+import com.nokia.extras 1.1
 
 import "./sun.js" as Sun
 
@@ -26,8 +27,8 @@ Page {
             Button {
                 id: date
                 text: Qt.formatDate(value)
-                enabled: false
                 property date value: new Date()
+                onClicked: open_date_dialog()
             }
             Button {
                 text: "+"
@@ -114,5 +115,25 @@ Page {
     function get_moon_image(phase) {
         var num = Math.round(phase / 10) % 10;
         return "../../images/moon-" + num + "0.png";
+    }
+
+    function open_date_dialog() {
+        dtDialog.day = date.value.getDate();
+        dtDialog.month = date.value.getMonth() + 1;
+        dtDialog.year = date.value.getYear();
+        dtDialog.open();
+    }
+
+    function set_date_dialog() {
+        var d = new Date(dtDialog.year, dtDialog.month - 1, dtDialog.day);
+        date.value = d;
+    }
+
+    DatePickerDialog {
+        id: dtDialog
+        titleText: qsTr("Choose date")
+        acceptButtonText: qsTr("Ok")
+        rejectButtonText: qsTr("Cancel")
+        onAccepted: set_date_dialog
     }
 }
