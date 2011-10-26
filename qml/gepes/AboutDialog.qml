@@ -40,7 +40,7 @@ import com.nokia.meego 1.0
             }
             Label {
                 color: "white"
-                text: qsTr("Website:") + " http://gitorious.org/gepes"
+                text: qsTr("Website:") + " http://cihar.com/software/gepes/"
             }
         }
     }
@@ -54,7 +54,7 @@ import com.nokia.meego 1.0
         }
         Button {
             text: qsTr("Open website");
-            onClicked: Qt.openUrlExternally('http://gitorious.org/gepes')
+            onClicked: Qt.openUrlExternally('http://cihar.com/software/gepes/')
         }
         Button {
             text: qsTr("Donate")

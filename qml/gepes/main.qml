@@ -48,7 +48,7 @@ PageStackWindow {
         visible: true
         ToolIcon {
             iconId: pageStack.depth > 1 ? "toolbar-back" : "toolbar-back-dimmed";
-            onClicked: { if (pageStack.depth > 1) { /*myMenu.close();*/ pageStack.pop();} }
+            onClicked: { if (pageStack.depth > 1) { /*myMenu.close();*/ pageStack.pop(); if (settingsIcon.insettings && pageStack.depth == 1) {settingsIcon.insettings = false; }  }}
         }
         ToolIcon {
             iconId: "toolbar-refresh";
@@ -56,7 +56,10 @@ PageStackWindow {
         }
         ToolIcon {
             iconId: "toolbar-settings";
-            onClicked: appWindow.pageStack.push(settingsPage)
+            id: settingsIcon
+            platformIconId: insettings ? "toolbar-settings-dimmed" : "toolbar-settings";
+            property bool insettings: false
+            onClicked: if (!insettings){ appWindow.pageStack.push(settingsPage); insettings = true;}
         }
         ToolIcon {
             platformIconId: "toolbar-application";
