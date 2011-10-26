@@ -26,7 +26,7 @@ Page {
         transformOrigin: Item.Bottom
     }
     Label {
-        text: qsTr("Azimuth:") + " " + (360 - compass.azimuth) + "° (" + qsTr("accuracy") +    " " + compass.calibration + ")"
+        text: qsTr("Azimuth:") + " " + (360 - compass.azimuth) + "° (" + qsTr("accuracy") +    " " + Math.round(100 * compass.calibration) + "%)"
         anchors.bottom: parent.bottom
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.margins: 10
