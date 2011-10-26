@@ -28,7 +28,7 @@ import com.meego 1.0
             }
             Label {
                 color: "white"
-                text: qsTr("Version:") + " " + "0.0.1"
+                text: qsTr("Version:") + " " + "0.1.0"
             }
             Label {
                 color: "white"
