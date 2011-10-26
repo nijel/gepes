@@ -42,32 +42,25 @@ Page {
             spacing: 25
 
             Column {
+                spacing: 25
 
                 Label {
-                    text: qsTr("Sun")
+                    text: qsTr("Moon")
                     font.pixelSize: 26
                     font.weight: Font.DemiBold
                 }
-
-                Label {
-                    id: sun_rise
-                    property double julian: Sun.sun_rise(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude);
-                    text: qsTr("Sun rise:") + " " + Qt.formatTime(Sun.calendar_date(julian), Qt.DefaultLocaleLongDate)
-                }
-                Label {
-                    id: sun_set
-                    property double julian: Sun.sun_set(dateButton.value, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
-                    property date date: Sun.calendar_date(julian)
-                    text: qsTr("Sun set:") + " " + Qt.formatTime(date, Qt.DefaultLocaleLongDate)
-                }
-
             }
 
             Column {
                 Label {
-                    id: sun_set_azimuth
-                    property double angle: Sun.sun_azimuth(sun_set.date, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
-                    text: angle
+                    id: moon_phase;
+                    property double phase: Sun.moon_phase(dateButton.value) * 100;
+                    property string phase_name: get_phase_name(phase)
+                    text: qsTr("Moon phase") + " " + Math.round(phase) + " % (" + phase_name + ")";
+                }
+
+                Image {
+                    source: get_moon_image(moon_phase.phase)
                 }
             }
         }
@@ -77,6 +70,33 @@ Page {
         var newdate = new Date();
         newdate.setTime(dateButton.value.getTime() + diff);
         dateButton.value = newdate;
+    }
+
+    function get_phase_name(moon_phase) {
+        if (moon_phase < 1.0) {
+            return qsTr("New moon");
+        } else if (moon_phase < 24.0) {
+            return qsTr("Waxing crescent");
+        } else if (moon_phase < 26.0) {
+            return qsTr("First quarter");
+        } else if (moon_phase < 49.0) {
+            return qsTr("Waxing gibbous");
+        } else if (moon_phase < 51.0) {
+            return qsTr("Full moon");
+        } else if (moon_phase < 74.0) {
+            return qsTr("Waning gibbous");
+        } else if (moon_phase < 76.0) {
+            return qsTr("Last quarter");
+        } else if (moon_phase < 99.0) {
+            return qsTr("Waning crescent ");
+        } else {
+            return qsTr("Dark moon");
+        }
+    }
+
+    function get_moon_image(phase) {
+        var num = Math.round(phase / 10) % 10;
+        return "../../images/moon-" + num + "0.png";
     }
 
     function open_date_dialog() {

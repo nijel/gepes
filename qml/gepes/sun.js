@@ -114,6 +114,12 @@ function hour_angle(dt, latitude, longitude) {
     return acos((sin(-0.83) - sin(latitude) * sin(D)) / (cos(latitude) * cos(D)));
 }
 
+function solar_elevation(dt, latitude, longitude) {
+    var H = hour_angle(dt, latitude, longitude);
+    var D = sun_declination(dt, latitude, longitude);
+    return asin(cos(H) * cos(D) * cos(latitude) + sin(D) * sin(latitude));
+}
+
 function sun_set(dt, latitude, longitude) {
     var H = hour_angle(dt, latitude, longitude);
     var n = julian_cycle(dt, latitude, longitude);
@@ -126,6 +132,14 @@ function sun_rise(dt, latitude, longitude) {
     var tr = solar_transit(dt, latitude, longitude);
     var se = sun_set(dt, latitude, longitude);
     return tr - (se - tr);
+}
+
+function sun_azimuth(dt, latitude, longitude) {
+    var D = sun_declination(dt, latitude, longitude);
+    var H = hour_angle(dt, latitude, longitude);
+    var S = solar_elevation(dt, latitude, longitude);
+    var ret = acos((sin(D) * cos(latitude) - cos(H) * cos(D) * sin(latitude)) / cos(S));
+    return ret;
 }
 
 function moon_phase(dt) {

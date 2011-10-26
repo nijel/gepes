@@ -18,6 +18,10 @@ PageStackWindow {
         id: sunPage
     }
 
+    MoonPage {
+        id: moonPage
+    }
+
     CompassPage {
         id: compassPage
     }

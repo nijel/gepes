@@ -26,8 +26,13 @@ Page {
             }
 
             Button {
-                text: qsTr("Sun & moon")
+                text: qsTr("Sun")
                 onClicked: appWindow.pageStack.push(sunPage)
+            }
+
+            Button {
+                text: qsTr("Moon")
+                onClicked: appWindow.pageStack.push(moonPage)
             }
 
             Button {
