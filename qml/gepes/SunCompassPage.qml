@@ -37,6 +37,14 @@ Page {
         transformOrigin: Item.Bottom
     }
     Label {
+        text: qsTr("Sun azimuth:") + " " + Math.round(sunAzimuth) + "°"
+        anchors.bottom: azimuthLabel.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.margins: 10
+        color: "yellow"
+    }
+    Label {
+        id: azimuthLabel
         text: qsTr("Azimuth:") + " " + (360 - compass.azimuth) + "° (" + qsTr("accuracy") +    " " + Math.round(100 * compass.calibration) + "%)"
         anchors.bottom: parent.bottom
         anchors.horizontalCenter: parent.horizontalCenter
