@@ -126,6 +126,20 @@ Page {
                         text: ">>"
                         onClicked: show_sun_compass(sun_set_azimuth.angle)
                     }
+
+                    Label {
+                        text: qsTr("Sun position:")
+                    }
+                    Label {
+                        id: sun_position_azimuth
+                        property date date: new Date()
+                        property double angle: Sun.sun_azimuth(date, positionSource.position.coordinate.latitude, positionSource.position.coordinate.longitude)
+                        text: GPS.to_deg(angle)
+                    }
+                    ListButton {
+                        text: ">>"
+                        onClicked: show_sun_compass(sun_position_azimuth.angle)
+                    }
                 }
             }
         }
@@ -165,5 +179,11 @@ Page {
 
     SunCompassPage {
         id: sunCompassPage;
+    }
+    Timer {
+        interval: 30000;
+        running: true;
+        repeat: true
+        onTriggered: sun_position_azimuth.date = new Date()
     }
 }
