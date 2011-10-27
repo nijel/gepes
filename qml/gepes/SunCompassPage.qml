@@ -6,6 +6,7 @@ Page {
     tools: commonTools
 
     property int orientationAngle: 0
+    property string source: "pos"
     property double sunAzimuth: 0
 
     Image {

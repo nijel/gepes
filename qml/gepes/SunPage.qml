@@ -111,7 +111,7 @@ Page {
                     }
                     ListButton {
                         text: ">>"
-                        onClicked: show_sun_compass(sun_rise_azimuth.angle)
+                        onClicked: show_sun_compass("rise")
                     }
 
                     Label {
@@ -124,7 +124,7 @@ Page {
                     }
                     ListButton {
                         text: ">>"
-                        onClicked: show_sun_compass(sun_set_azimuth.angle)
+                        onClicked: show_sun_compass("set")
                     }
 
                     Label {
@@ -138,7 +138,7 @@ Page {
                     }
                     ListButton {
                         text: ">>"
-                        onClicked: show_sun_compass(sun_position_azimuth.angle)
+                        onClicked: show_sun_compass("pos")
                     }
                 }
             }
@@ -172,9 +172,20 @@ Page {
 
     }
 
-    function show_sun_compass(azimuth) {
-        sunCompassPage.sunAzimuth = azimuth;
+    function show_sun_compass(source) {
+        sunCompassPage.source = source;
+        update_sun_compass();
         appWindow.pageStack.push(sunCompassPage);
+    }
+
+    function update_sun_compass() {
+        if (sunCompassPage.source == "pos") {
+            sunCompassPage.sunAzimuth = sun_position_azimuth.angle
+        } else if (sunCompassPage.source == "rise") {
+            sunCompassPage.sunAzimuth = sun_rise_azimuth.angle
+        } else if (sunCompassPage.source == "set") {
+            sunCompassPage.sunAzimuth = sun_set_azimuth.angle
+        }
     }
 
     SunCompassPage {
@@ -184,6 +195,9 @@ Page {
         interval: 30000;
         running: true;
         repeat: true
-        onTriggered: sun_position_azimuth.date = new Date()
+        onTriggered: {
+            sun_position_azimuth.date = new Date();
+            update_sun_compass();
+        }
     }
 }
