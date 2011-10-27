@@ -25,6 +25,6 @@ Column {
     }
 
     Label {
-        text: qsTr("Speed:") + " " + (positionSource.position.speedValid ? GPS.printNum(positionSource.position.speed) + " m/s" : qsTr("N/A"))
+        text: qsTr("Speed:") + " " + (positionSource.position.speedValid ? GPS.printNum(positionSource.position.speed) + " m/s (" + GPS.printNum(positionSource.position.speed * 3.6) + " km/h)" : qsTr("N/A"))
     }
 }
