@@ -6,12 +6,12 @@ function get_julian_date() {
 }
 
 function julian_date(dt) {
-    var MM=dt.getMonth() + 1;
-    var DD=dt.getDate();
-    var YY=dt.getFullYear();
-    var HR=dt.getHours();
-    var MN=dt.getMinutes();
-    var SC=dt.getSeconds();
+    var MM=dt.getUTCMonth() + 1;
+    var DD=dt.getUTCDate();
+    var YY=dt.getUTCFullYear();
+    var HR=dt.getUTCHours();
+    var MN=dt.getUTCMinutes();
+    var SC=dt.getUTCSeconds();
     with (Math) {
       var HR = HR + (MN / 60) + (SC/3600);
       var GGG = 1;
@@ -138,13 +138,15 @@ function sun_azimuth(dt, latitude, longitude) {
     var D = sun_declination(dt, latitude, longitude);
     var t = solar_transit(dt, latitude, longitude);
     var j = julian_date(dt);
+    /* Hour angle */
     var h = 15 * 24 * (j - t);
-    var S = solar_elevation(dt, latitude, longitude);
+    /* Solar elevation angle */
+    var S = asin(cos(h) * cos(D) * cos(latitude) + sin(D) * sin(latitude));
     var ret = acos((sin(D) * cos(latitude) - cos(h) * cos(D) * sin(latitude)) / cos(S));
     if (h < 0) {
         return ret;
     } else {
-        return ret + 180;
+        return 360 - ret;
     }
 }
 
