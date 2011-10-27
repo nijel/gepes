@@ -111,6 +111,7 @@ Page {
                     }
                     ListButton {
                         text: ">>"
+                        onClicked: show_sun_compass(sun_rise_azimuth.angle)
                     }
 
                     Label {
@@ -123,6 +124,7 @@ Page {
                     }
                     ListButton {
                         text: ">>"
+                        onClicked: show_sun_compass(sun_set_azimuth.angle)
                     }
                 }
             }
@@ -154,5 +156,14 @@ Page {
         rejectButtonText: qsTr("Cancel")
         onAccepted: set_date_dialog();
 
+    }
+
+    function show_sun_compass(azimuth) {
+        sunCompassPage.sunAzimuth = azimuth;
+        appWindow.pageStack.push(sunCompassPage);
+    }
+
+    SunCompassPage {
+        id: sunCompassPage;
     }
 }
