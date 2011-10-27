@@ -24,7 +24,7 @@ import com.nokia.meego 1.0
             anchors.centerIn: parent
             Label {
                 color: "white"
-                text: qsTr("Location based tools")
+                text: qsTr("GPS and compass based tools")
             }
             Label {
                 color: "white"
