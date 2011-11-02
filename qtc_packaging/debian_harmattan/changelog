@@ -1,3 +1,9 @@
+gepes (0.1.1) unstable; urgency=low
+
+  * Fix import to work on N9.
+
+ -- Michal Čihař <nijel@debian.org>  Wed, 02 Nov 2011 16:52:40 +0100
+
 gepes (0.1.0) unstable; urgency=low
 
   * Improved date selection.
@@ -7,7 +13,7 @@ gepes (0.1.0) unstable; urgency=low
 
  -- Michal Čihař <nijel@debian.org>  Wed, 26 Oct 2011  9:04:42 +0200
 
-gepes (0.1.0) unstable; urgency=low
+gepes (0.0.1) unstable; urgency=low
 
   * Initial Release.
 
