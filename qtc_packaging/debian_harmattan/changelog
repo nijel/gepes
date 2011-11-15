@@ -2,7 +2,7 @@ gepes (0.1.2) unstable; urgency=low
 
   * Fixed altitude and speed display.
 
- -- Michal Čihař <nijel@debian.org>  Tued, 15 Nov 2011  8:39:41 +0100
+ -- Michal Čihař <nijel@debian.org>  Tue, 15 Nov 2011  8:39:41 +0100
 
 gepes (0.1.1) unstable; urgency=low
 
