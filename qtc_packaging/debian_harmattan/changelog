@@ -1,16 +1,23 @@
-gepes (0.1.2) unstable; urgency=low
+gepes (0.2.0) unstable; urgency=low
+
+  * Disable sensors while application is not active to reduce power
+    consumption.
+
+ -- Michal Čihař <nijel@debian.org>  Thu, 08 Dec 2011 10:39:29 +0100
+
+gepes (0.2.0) unstable; urgency=low
 
   * Fixed altitude and speed display.
 
  -- Michal Čihař <nijel@debian.org>  Tue, 15 Nov 2011  8:39:41 +0100
 
-gepes (0.1.1) unstable; urgency=low
+gepes (0.2.0) unstable; urgency=low
 
   * Fix import to work on N9.
 
  -- Michal Čihař <nijel@debian.org>  Wed, 02 Nov 2011 16:52:40 +0100
 
-gepes (0.1.0) unstable; urgency=low
+gepes (0.2.0) unstable; urgency=low
 
   * Improved date selection.
   * Added sun set/rise azimuth.
@@ -19,7 +26,7 @@ gepes (0.1.0) unstable; urgency=low
 
  -- Michal Čihař <nijel@debian.org>  Wed, 26 Oct 2011  9:04:42 +0200
 
-gepes (0.0.1) unstable; urgency=low
+gepes (0.2.0) unstable; urgency=low
 
   * Initial Release.
 
