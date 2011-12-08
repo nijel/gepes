@@ -111,4 +111,29 @@ PageStackWindow {
     function update() {
         positionSource.update();
     }
+
+    states: [
+        State {
+            name: "fullsize-visible"
+            when: platformWindow.viewMode == WindowState.Fullsize && platformWindow.visible
+            StateChangeScript {
+                script: {
+                    compass.active = true;
+                    positionSource.active = true;
+                    console.log("Visibility: Fullsize and visible!")
+                }
+            }
+        },
+        State {
+            name: "thumbnail-or-invisible"
+            when: platformWindow.viewMode == WindowState.Thumbnail || !platformWindow.visible
+            StateChangeScript {
+                script: {
+                    compass.active = false;
+                    positionSource.active = false;
+                    console.log("Visibility: Not fullsize (Thumbnail and/or invisible)")
+                }
+            }
+        }
+    ]
 }
