@@ -1,5 +1,6 @@
 import Qt 4.7
 import QtQuick 1.1
+import QtMobility.systeminfo 1.2
 import com.nokia.meego 1.0
 import com.nokia.extras 1.0
 
@@ -191,13 +192,16 @@ Page {
     SunCompassPage {
         id: sunCompassPage;
     }
-    Timer {
-        interval: 30000;
-        running: true;
-        repeat: true
-        onTriggered: {
+    AlignedTimer {
+        id: updatetimer
+        maximumInterval: 45
+        minimumInterval: 30
+        onTimeout: {
             sun_position_azimuth.date = new Date();
             update_sun_compass();
         }
+    }
+    Component.onCompleted: {
+        updatetimer.start();
     }
 }
