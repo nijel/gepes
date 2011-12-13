@@ -56,7 +56,7 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="10"/>
         <source>Position</source>
-        <translation type="unfinished"/>
+        <translation>Umístění</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="16"/>
