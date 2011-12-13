@@ -20,7 +20,7 @@
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="43"/>
         <source>Website:</source>
-        <translation type="unfinished"/>
+        <translation>Web:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="52"/>
