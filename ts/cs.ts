@@ -48,7 +48,7 @@
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
         <source>accuracy</source>
-        <translation type="unfinished"/>
+        <translation>přesnost</translation>
     </message>
 </context>
 <context>
