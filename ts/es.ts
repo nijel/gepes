@@ -264,7 +264,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="48"/>
         <source>Sun</source>
-        <translation type="unfinished"/>
+        <translation>Sol</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="58"/>
