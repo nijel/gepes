@@ -36,7 +36,7 @@
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="60"/>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>Donar</translation>
     </message>
 </context>
 <context>
