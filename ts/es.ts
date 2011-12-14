@@ -251,7 +251,7 @@
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
         <source>Azimuth:</source>
-        <translation type="unfinished"/>
+        <translation>Azimut:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
