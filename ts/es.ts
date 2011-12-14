@@ -215,7 +215,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="118"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Cancelar</translation>
     </message>
 </context>
 <context>
