@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="39"/>
         <source>Email:</source>
-        <translation type="unfinished"/>
+        <translation>Correo electrónico:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="43"/>
