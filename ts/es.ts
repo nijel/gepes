@@ -11,7 +11,7 @@
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="31"/>
         <source>Version:</source>
-        <translation type="unfinished"/>
+        <translation>Versión:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="39"/>
