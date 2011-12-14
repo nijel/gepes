@@ -51,11 +51,3 @@ OTHER_FILES += \
     qtc_packaging/debian_harmattan/changelog \
     gepes256.png \
     gepes64.png
-
-
-
-
-
-
-
-
