@@ -296,7 +296,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="169"/>
         <source>Choose date</source>
-        <translation type="unfinished"/>
+        <translation>Elegir fecha</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="170"/>
