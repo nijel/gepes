@@ -306,7 +306,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="171"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Cancelar</translation>
     </message>
 </context>
 </TS>
