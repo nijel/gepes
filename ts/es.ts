@@ -301,7 +301,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="170"/>
         <source>Ok</source>
-        <translation type="unfinished"/>
+        <translation>Aceptar</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="171"/>
