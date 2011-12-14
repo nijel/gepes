@@ -275,7 +275,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="69"/>
         <source>Solar noon:</source>
-        <translation type="unfinished"/>
+        <translation>Cénit solar:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="80"/>
