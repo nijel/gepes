@@ -31,7 +31,7 @@
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="56"/>
         <source>Open website</source>
-        <translation type="unfinished"/>
+        <translation>Abrir sitio web</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="60"/>
