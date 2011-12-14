@@ -291,7 +291,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="132"/>
         <source>Sun position:</source>
-        <translation type="unfinished"/>
+        <translation>Posición solar:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="169"/>
