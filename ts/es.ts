@@ -165,7 +165,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="79"/>
         <source>Waxing crescent</source>
-        <translation type="unfinished"/>
+        <translation>Luna nueva visible</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="81"/>
