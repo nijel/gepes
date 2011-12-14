@@ -170,7 +170,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="81"/>
         <source>First quarter</source>
-        <translation type="unfinished"/>
+        <translation>Cuarto creciente</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="83"/>
