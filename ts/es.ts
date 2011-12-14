@@ -210,7 +210,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="117"/>
         <source>Ok</source>
-        <translation type="unfinished"/>
+        <translation>Aceptar</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="118"/>
