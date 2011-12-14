@@ -114,7 +114,7 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="40"/>
         <source>Source:</source>
-        <translation type="unfinished"/>
+        <translation>Fuente:</translation>
     </message>
 </context>
 <context>
