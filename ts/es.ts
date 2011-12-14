@@ -281,7 +281,7 @@
         <location filename="../qml/gepes/SunPage.qml" line="80"/>
         <location filename="../qml/gepes/SunPage.qml" line="119"/>
         <source>Sun set:</source>
-        <translation type="unfinished"/>
+        <translation>Ocaso:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="95"/>
