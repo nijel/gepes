@@ -44,7 +44,7 @@
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
         <source>Azimuth:</source>
-        <translation type="unfinished"/>
+        <translation>Azimut:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
