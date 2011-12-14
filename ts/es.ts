@@ -228,7 +228,7 @@
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
         <source>Refresh frequency:</source>
-        <translation type="unfinished"/>
+        <translation>Frecuencia de actualización:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
