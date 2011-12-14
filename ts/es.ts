@@ -93,7 +93,7 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="26"/>
         <source>Accuracy</source>
-        <translation type="unfinished"/>
+        <translation>Precisión</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
