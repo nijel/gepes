@@ -1,6 +1,10 @@
 TRANSLATIONS = ts/cs.ts ts/de.ts
 
-FORMS = qml/gepes/*.qml
+evilhack{
+SOURCES = qml/gepes/*.qml
+}
+
+CODECFORTR = UTF-8
 
 # Add more folders to ship with the application, here
 folder_01.source = qml/gepes
