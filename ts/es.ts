@@ -109,7 +109,7 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
         <source>Horizontal:</source>
-        <translation type="unfinished"/>
+        <translation>Horizontal:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="40"/>
