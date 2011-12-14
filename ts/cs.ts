@@ -6,247 +6,247 @@
     <name>AboutDialog</name>
     <message>
         <source>GPS and compass based tools</source>
-        <translation type="unfinished">Nástroje používající GPS a kompas</translation>
+        <translation>Nástroje používající GPS a kompas</translation>
     </message>
     <message>
         <source>Version:</source>
-        <translation type="unfinished">Verze:</translation>
+        <translation>Verze:</translation>
     </message>
     <message>
         <source>Email:</source>
-        <translation type="unfinished">Email:</translation>
+        <translation>Email:</translation>
     </message>
     <message>
         <source>Website:</source>
-        <translation type="unfinished">Web:</translation>
+        <translation>Web:</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished">Ok</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Open website</source>
-        <translation type="unfinished">Otevřít web</translation>
+        <translation>Otevřít web</translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation type="unfinished">Přispějte</translation>
+        <translation>Přispějte</translation>
     </message>
 </context>
 <context>
     <name>CompassPage</name>
     <message>
         <source>Azimuth:</source>
-        <translation type="unfinished">Azimut:</translation>
+        <translation>Azimut:</translation>
     </message>
     <message>
         <source>accuracy</source>
-        <translation type="unfinished">přesnost</translation>
+        <translation>přesnost</translation>
     </message>
 </context>
 <context>
     <name>GPSBase</name>
     <message>
         <source>Position</source>
-        <translation type="unfinished">Umístění</translation>
+        <translation>Umístění</translation>
     </message>
     <message>
         <source>Latitude:</source>
-        <translation type="unfinished"></translation>
+        <translation>Šířka:</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Longitude:</source>
-        <translation type="unfinished"></translation>
+        <translation>Délka:</translation>
     </message>
     <message>
         <source>Altitude:</source>
-        <translation type="unfinished"></translation>
+        <translation>Výška:</translation>
     </message>
     <message>
         <source>Speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rychlost:</translation>
     </message>
 </context>
 <context>
     <name>GPSPage</name>
     <message>
         <source>Accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesnost</translation>
     </message>
     <message>
         <source>Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>Svislá:</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodorovná:</translation>
     </message>
     <message>
         <source>Source:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdroj:</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Nástroje</translation>
     </message>
     <message>
         <source>Sun</source>
-        <translation type="unfinished"></translation>
+        <translation>Slunce</translation>
     </message>
     <message>
         <source>Moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Měsíc</translation>
     </message>
     <message>
         <source>Compass</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompas</translation>
     </message>
     <message>
         <source>GPS details</source>
-        <translation type="unfinished"></translation>
+        <translation>Podrobnosti GPS</translation>
     </message>
 </context>
 <context>
     <name>MoonPage</name>
     <message>
         <source>Moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Měsíc</translation>
     </message>
     <message>
         <source>Moon phase</source>
-        <translation type="unfinished"></translation>
+        <translation>Fáze měsíce</translation>
     </message>
     <message>
         <source>New moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Nov</translation>
     </message>
     <message>
         <source>Waxing crescent</source>
-        <translation type="unfinished"></translation>
+        <translation>Dorůstající srpek</translation>
     </message>
     <message>
         <source>First quarter</source>
-        <translation type="unfinished"></translation>
+        <translation>První čtvrť</translation>
     </message>
     <message>
         <source>Waxing gibbous</source>
-        <translation type="unfinished"></translation>
+        <translation>Dorůstající měsíc</translation>
     </message>
     <message>
         <source>Full moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Úplněk</translation>
     </message>
     <message>
         <source>Waning gibbous</source>
-        <translation type="unfinished"></translation>
+        <translation>Couvající měsíc</translation>
     </message>
     <message>
         <source>Last quarter</source>
-        <translation type="unfinished"></translation>
+        <translation>Poslední čtvrť</translation>
     </message>
     <message>
         <source>Waning crescent </source>
-        <translation type="unfinished"></translation>
+        <translation>Couvající srpek</translation>
     </message>
     <message>
         <source>Dark moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Nov</translation>
     </message>
     <message>
         <source>Choose date</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvolte datum</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished">Ok</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrušit</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Sensors</source>
-        <translation type="unfinished"></translation>
+        <translation>Čidla</translation>
     </message>
     <message>
         <source>Refresh frequency:</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovovací frekvence:</translation>
     </message>
     <message>
         <source>auto</source>
-        <translation type="unfinished"></translation>
+        <translation>automaticky</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazení</translation>
     </message>
 </context>
 <context>
     <name>SunCompassPage</name>
     <message>
         <source>Sun azimuth:</source>
-        <translation type="unfinished"></translation>
+        <translation>Azimut slunce:</translation>
     </message>
     <message>
         <source>Azimuth:</source>
-        <translation type="unfinished">Azimut:</translation>
+        <translation>Azimut:</translation>
     </message>
     <message>
         <source>accuracy</source>
-        <translation type="unfinished">přesnost</translation>
+        <translation>přesnost</translation>
     </message>
 </context>
 <context>
     <name>SunPage</name>
     <message>
         <source>Sun</source>
-        <translation type="unfinished"></translation>
+        <translation>Slunce</translation>
     </message>
     <message>
         <source>Sun rise:</source>
-        <translation type="unfinished"></translation>
+        <translation>Východ slunce:</translation>
     </message>
     <message>
         <source>Solar noon:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sluneční poledne:</translation>
     </message>
     <message>
         <source>Sun set:</source>
-        <translation type="unfinished"></translation>
+        <translation>Západ slunce:</translation>
     </message>
     <message>
         <source>Azimuth</source>
-        <translation type="unfinished"></translation>
+        <translation>Azimut</translation>
     </message>
     <message>
         <source>Sun position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozice slunce:</translation>
     </message>
     <message>
         <source>Choose date</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvolte datum</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished">Ok</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrušit</translation>
     </message>
 </context>
 </TS>
