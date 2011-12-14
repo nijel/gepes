@@ -75,7 +75,7 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="20"/>
         <source>Longitude:</source>
-        <translation type="unfinished"/>
+        <translation>Longitud:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="24"/>
