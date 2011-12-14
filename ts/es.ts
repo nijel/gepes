@@ -200,7 +200,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="93"/>
         <source>Dark moon</source>
-        <translation type="unfinished"/>
+        <translation>Luna negra</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="116"/>
