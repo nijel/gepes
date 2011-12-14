@@ -85,7 +85,7 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="28"/>
         <source>Speed:</source>
-        <translation type="unfinished"/>
+        <translation>Velocidad</translation>
     </message>
 </context>
 <context>
