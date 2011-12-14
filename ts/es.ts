@@ -160,7 +160,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="77"/>
         <source>New moon</source>
-        <translation type="unfinished"/>
+        <translation>Luna nueva</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="79"/>
