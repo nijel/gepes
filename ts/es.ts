@@ -205,7 +205,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="116"/>
         <source>Choose date</source>
-        <translation type="unfinished"/>
+        <translation>Elegir fecha</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="117"/>
