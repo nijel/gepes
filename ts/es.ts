@@ -190,7 +190,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="89"/>
         <source>Last quarter</source>
-        <translation type="unfinished"/>
+        <translation>Cuarto menguante</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="91"/>
