@@ -270,7 +270,7 @@
         <location filename="../qml/gepes/SunPage.qml" line="58"/>
         <location filename="../qml/gepes/SunPage.qml" line="105"/>
         <source>Sun rise:</source>
-        <translation type="unfinished"/>
+        <translation>Amanecer:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="69"/>
