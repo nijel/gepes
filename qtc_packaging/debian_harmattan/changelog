@@ -1,6 +1,5 @@
-gepes (0.2.0) unstable; urgency=low
+gepes (0.3.0) unstable; urgency=low
 
-  * Disable sensors while application is not active to reduce power
-    consumption.
+  * Started localisation of the application.
 
  -- Michal Čihař <nijel@debian.org>  Thu, 08 Dec 2011 10:39:29 +0100
