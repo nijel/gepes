@@ -70,7 +70,7 @@
         <location filename="../qml/gepes/GPSBase.qml" line="24"/>
         <location filename="../qml/gepes/GPSBase.qml" line="28"/>
         <source>N/A</source>
-        <translation type="unfinished"/>
+        <translation>N/A</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="20"/>
