@@ -13,6 +13,10 @@ folder_02.source = images
 folder_02.target =
 DEPLOYMENTFOLDERS = folder_01 folder_02
 
+translations.files = ts/*.qm
+translations.path = /opt/gepes/l10n
+INSTALLS += translations
+
 # Additional import path used to resolve QML modules in Creator's code model
 QML_IMPORT_PATH =
 
