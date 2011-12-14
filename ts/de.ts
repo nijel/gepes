@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>Email:</source>
-        <translation type="unfinished"/>
+        <translation>E-Mail:</translation>
     </message>
     <message>
         <source>Website:</source>
