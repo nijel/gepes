@@ -80,7 +80,7 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="24"/>
         <source>Altitude:</source>
-        <translation type="unfinished"/>
+        <translation>Altitud:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="28"/>
