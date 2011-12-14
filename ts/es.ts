@@ -104,7 +104,7 @@
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
         <source>N/A</source>
-        <translation type="unfinished"/>
+        <translation>N/A</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
