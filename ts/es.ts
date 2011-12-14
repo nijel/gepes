@@ -233,7 +233,7 @@
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
         <source>auto</source>
-        <translation type="unfinished"/>
+        <translation>automático</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="49"/>
