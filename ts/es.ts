@@ -142,7 +142,7 @@
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="44"/>
         <source>GPS details</source>
-        <translation type="unfinished"/>
+        <translation>Detalles GPS</translation>
     </message>
 </context>
 <context>
