@@ -122,7 +122,7 @@
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="23"/>
         <source>Tools</source>
-        <translation type="unfinished"/>
+        <translation>Herramientas</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="29"/>
