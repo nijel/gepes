@@ -286,7 +286,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="95"/>
         <source>Azimuth</source>
-        <translation type="unfinished"/>
+        <translation>Azimut</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="132"/>
