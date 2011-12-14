@@ -256,7 +256,7 @@
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
         <source>accuracy</source>
-        <translation type="unfinished"/>
+        <translation>precisión</translation>
     </message>
 </context>
 <context>
