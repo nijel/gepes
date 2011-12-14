@@ -223,7 +223,7 @@
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="22"/>
         <source>Sensors</source>
-        <translation type="unfinished"/>
+        <translation>Sensores</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
