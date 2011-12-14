@@ -155,7 +155,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="59"/>
         <source>Moon phase</source>
-        <translation type="unfinished"/>
+        <translation>Fase de la luna</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="77"/>
