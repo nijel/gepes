@@ -132,7 +132,7 @@
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="34"/>
         <source>Moon</source>
-        <translation type="unfinished"/>
+        <translation>Luna</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="39"/>
