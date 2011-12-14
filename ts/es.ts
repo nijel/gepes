@@ -185,7 +185,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="87"/>
         <source>Waning gibbous</source>
-        <translation type="unfinished"/>
+        <translation>Luna gibosa menguante</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="89"/>
