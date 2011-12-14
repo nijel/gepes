@@ -180,7 +180,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="85"/>
         <source>Full moon</source>
-        <translation type="unfinished"/>
+        <translation>Luna llena</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="87"/>
