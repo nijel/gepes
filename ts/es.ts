@@ -137,7 +137,7 @@
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="39"/>
         <source>Compass</source>
-        <translation type="unfinished"/>
+        <translation>Brújula</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="44"/>
