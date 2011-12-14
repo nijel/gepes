@@ -238,7 +238,7 @@
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="49"/>
         <source>Appearance</source>
-        <translation type="unfinished"/>
+        <translation>Apariencia</translation>
     </message>
 </context>
 <context>
