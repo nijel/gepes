@@ -195,7 +195,7 @@
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="91"/>
-        <source>Waning crescent </source>
+        <source>Waning crescent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

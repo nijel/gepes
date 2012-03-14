@@ -88,7 +88,7 @@ Page {
         } else if (moon_phase < 76.0) {
             return qsTr("Last quarter");
         } else if (moon_phase < 99.0) {
-            return qsTr("Waning crescent ");
+            return qsTr("Waning crescent");
         } else {
             return qsTr("Dark moon");
         }

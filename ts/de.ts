@@ -155,7 +155,7 @@
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Waning crescent </source>
+        <source>Waning crescent</source>
         <translation type="unfinished"/>
     </message>
     <message>

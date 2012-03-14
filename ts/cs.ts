@@ -156,7 +156,7 @@
         <translation>Poslední čtvrť</translation>
     </message>
     <message>
-        <source>Waning crescent </source>
+        <source>Waning crescent</source>
         <translation>Couvající srpek</translation>
     </message>
     <message>
