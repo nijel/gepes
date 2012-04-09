@@ -5,7 +5,7 @@
     <name>AboutDialog</name>
     <message>
         <source>GPS and compass based tools</source>
-        <translation type="unfinished"/>
+        <translation>GPS- und kompass-basierte Werkzeuge</translation>
     </message>
     <message>
         <source>Version:</source>
@@ -17,235 +17,235 @@
     </message>
     <message>
         <source>Website:</source>
-        <translation type="unfinished"/>
+        <translation>Website:</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished"/>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Open website</source>
-        <translation type="unfinished"/>
+        <translation>Website öffnen</translation>
     </message>
     <message>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>Spenden</translation>
     </message>
 </context>
 <context>
     <name>CompassPage</name>
     <message>
         <source>Azimuth:</source>
-        <translation type="unfinished"/>
+        <translation>Azimut:</translation>
     </message>
     <message>
         <source>accuracy</source>
-        <translation type="unfinished"/>
+        <translation>Genauigkeit</translation>
     </message>
 </context>
 <context>
     <name>GPSBase</name>
     <message>
         <source>Position</source>
-        <translation type="unfinished"/>
+        <translation>Position</translation>
     </message>
     <message>
         <source>Latitude:</source>
-        <translation type="unfinished"/>
+        <translation>Breitengrad:</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished"/>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Longitude:</source>
-        <translation type="unfinished"/>
+        <translation>Längengrad:</translation>
     </message>
     <message>
         <source>Altitude:</source>
-        <translation type="unfinished"/>
+        <translation>Höhe:</translation>
     </message>
     <message>
         <source>Speed:</source>
-        <translation type="unfinished"/>
+        <translation>Geschwindigkeit:</translation>
     </message>
 </context>
 <context>
     <name>GPSPage</name>
     <message>
         <source>Accuracy</source>
-        <translation type="unfinished"/>
+        <translation>Genauigkeit</translation>
     </message>
     <message>
         <source>Vertical:</source>
-        <translation type="unfinished"/>
+        <translation>Vertikal:</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished"/>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Horizontal:</source>
-        <translation type="unfinished"/>
+        <translation>Horizontal:</translation>
     </message>
     <message>
         <source>Source:</source>
-        <translation type="unfinished"/>
+        <translation>Quelle:</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"/>
+        <translation>Werkzeuge</translation>
     </message>
     <message>
         <source>Sun</source>
-        <translation type="unfinished"/>
+        <translation>Sonne</translation>
     </message>
     <message>
         <source>Moon</source>
-        <translation type="unfinished"/>
+        <translation>Mond</translation>
     </message>
     <message>
         <source>Compass</source>
-        <translation type="unfinished"/>
+        <translation>Kompass</translation>
     </message>
     <message>
         <source>GPS details</source>
-        <translation type="unfinished"/>
+        <translation>GPS-Details</translation>
     </message>
 </context>
 <context>
     <name>MoonPage</name>
     <message>
         <source>Moon</source>
-        <translation type="unfinished"/>
+        <translation>Mond</translation>
     </message>
     <message>
         <source>Moon phase</source>
-        <translation type="unfinished"/>
+        <translation>Mondphase</translation>
     </message>
     <message>
         <source>New moon</source>
-        <translation type="unfinished"/>
+        <translation>Neumond</translation>
     </message>
     <message>
         <source>Waxing crescent</source>
-        <translation type="unfinished"/>
+        <translation>Wachsendes Viertel</translation>
     </message>
     <message>
         <source>First quarter</source>
-        <translation type="unfinished"/>
+        <translation>Erstes Viertel</translation>
     </message>
     <message>
         <source>Waxing gibbous</source>
-        <translation type="unfinished"/>
+        <translation>Wachsender Halbmond</translation>
     </message>
     <message>
         <source>Full moon</source>
-        <translation type="unfinished"/>
+        <translation>Vollmond</translation>
     </message>
     <message>
         <source>Waning gibbous</source>
-        <translation type="unfinished"/>
+        <translation>Schrumpfender Halbmond</translation>
     </message>
     <message>
         <source>Last quarter</source>
-        <translation type="unfinished"/>
+        <translation>Letztes Viertel</translation>
     </message>
     <message>
         <source>Waning crescent</source>
-        <translation type="unfinished"/>
+        <translation>Abnehmendes Viertel</translation>
     </message>
     <message>
         <source>Dark moon</source>
-        <translation type="unfinished"/>
+        <translation>Fast Neumond</translation>
     </message>
     <message>
         <source>Choose date</source>
-        <translation type="unfinished"/>
+        <translation>Datum wählen</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished"/>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Abbrechen</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Sensors</source>
-        <translation type="unfinished"/>
+        <translation>Sensoren</translation>
     </message>
     <message>
         <source>Refresh frequency:</source>
-        <translation type="unfinished"/>
+        <translation>Aktualisierungsrate:</translation>
     </message>
     <message>
         <source>auto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">auto</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"/>
+        <translation>Darstellung</translation>
     </message>
 </context>
 <context>
     <name>SunCompassPage</name>
     <message>
         <source>Sun azimuth:</source>
-        <translation type="unfinished"/>
+        <translation>Sonnen-Azimut:</translation>
     </message>
     <message>
         <source>Azimuth:</source>
-        <translation type="unfinished"/>
+        <translation>Azimut:</translation>
     </message>
     <message>
         <source>accuracy</source>
-        <translation type="unfinished"/>
+        <translation>Genauigkeit</translation>
     </message>
 </context>
 <context>
     <name>SunPage</name>
     <message>
         <source>Sun</source>
-        <translation type="unfinished"/>
+        <translation>Sonne</translation>
     </message>
     <message>
         <source>Sun rise:</source>
-        <translation type="unfinished"/>
+        <translation>Sonnenaufgang:</translation>
     </message>
     <message>
         <source>Solar noon:</source>
-        <translation type="unfinished"/>
+        <translation>Höchster Sonnenstand:</translation>
     </message>
     <message>
         <source>Sun set:</source>
-        <translation type="unfinished"/>
+        <translation>Sonnenuntergang:</translation>
     </message>
     <message>
         <source>Azimuth</source>
-        <translation type="unfinished"/>
+        <translation>Azimut</translation>
     </message>
     <message>
         <source>Sun position:</source>
-        <translation type="unfinished"/>
+        <translation>Sonnenstand:</translation>
     </message>
     <message>
         <source>Choose date</source>
-        <translation type="unfinished"/>
+        <translation>Datum wählen</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished"/>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>Abbrechen</translation>
     </message>
 </context>
 </TS>
