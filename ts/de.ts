@@ -5,7 +5,7 @@
     <name>AboutDialog</name>
     <message>
         <source>GPS and compass based tools</source>
-        <translation>GPS- und kompass-basierte Werkzeuge</translation>
+        <translation>GPS- und kompassbasierende Anwendung</translation>
     </message>
     <message>
         <source>Version:</source>
@@ -17,15 +17,15 @@
     </message>
     <message>
         <source>Website:</source>
-        <translation>Website:</translation>
+        <translation>Webseite:</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Open website</source>
-        <translation>Website öffnen</translation>
+        <translation>Webseite öffnen</translation>
     </message>
     <message>
         <source>Donate</source>
@@ -124,7 +124,7 @@
     </message>
     <message>
         <source>Moon phase</source>
-        <translation>Mondphase</translation>
+        <translation>Phase</translation>
     </message>
     <message>
         <source>New moon</source>
@@ -132,7 +132,7 @@
     </message>
     <message>
         <source>Waxing crescent</source>
-        <translation>Wachsendes Viertel</translation>
+        <translation>Zunehmender Mond</translation>
     </message>
     <message>
         <source>First quarter</source>
@@ -140,7 +140,7 @@
     </message>
     <message>
         <source>Waxing gibbous</source>
-        <translation>Wachsender Halbmond</translation>
+        <translation>Zunehmender Halbmond</translation>
     </message>
     <message>
         <source>Full moon</source>
@@ -148,7 +148,7 @@
     </message>
     <message>
         <source>Waning gibbous</source>
-        <translation>Schrumpfender Halbmond</translation>
+        <translation>Abnehmender Halbmond</translation>
     </message>
     <message>
         <source>Last quarter</source>
@@ -156,11 +156,11 @@
     </message>
     <message>
         <source>Waning crescent</source>
-        <translation>Abnehmendes Viertel</translation>
+        <translation>Abnehmender Mond</translation>
     </message>
     <message>
         <source>Dark moon</source>
-        <translation>Fast Neumond</translation>
+        <translation>Schwarzer Mond</translation>
     </message>
     <message>
         <source>Choose date</source>
@@ -168,7 +168,7 @@
     </message>
     <message>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -187,7 +187,7 @@
     </message>
     <message>
         <source>auto</source>
-        <translation>auto</translation>
+        <translation>automatisch</translation>
     </message>
     <message>
         <source>Appearance</source>
@@ -198,7 +198,7 @@
     <name>SunCompassPage</name>
     <message>
         <source>Sun azimuth:</source>
-        <translation>Sonnen-Azimut:</translation>
+        <translation>Sonnenazimut:</translation>
     </message>
     <message>
         <source>Azimuth:</source>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <source>Solar noon:</source>
-        <translation>Höchster Sonnenstand:</translation>
+        <translation>Sonnenhöchststand:</translation>
     </message>
     <message>
         <source>Sun set:</source>
@@ -241,7 +241,7 @@
     </message>
     <message>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Cancel</source>
