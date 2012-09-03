@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
@@ -195,7 +196,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="91"/>
         <source>Waning crescent</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="93"/>

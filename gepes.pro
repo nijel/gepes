@@ -1,4 +1,4 @@
-TRANSLATIONS = ts/cs.ts ts/de.ts ts/sk.ts ts/fr.ts ts/fi.ts ts/es.ts ts/ru.ts ts/zh_CN.ts
+TRANSLATIONS = ts/cs.ts ts/de.ts ts/sk.ts ts/fr.ts ts/fi.ts ts/es.ts ts/ru.ts ts/zh_CN.ts ts/ar.ts
 
 evilhack{
 SOURCES = qml/gepes/*.qml
