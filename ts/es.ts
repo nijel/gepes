@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="es">
 <defaultcodec>UTF-8</defaultcodec>
@@ -71,7 +70,7 @@
         <location filename="../qml/gepes/GPSBase.qml" line="24"/>
         <location filename="../qml/gepes/GPSBase.qml" line="28"/>
         <source>N/A</source>
-        <translation>N/A</translation>
+        <translation>N/D</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="20"/>
@@ -105,7 +104,7 @@
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
         <source>N/A</source>
-        <translation>N/A</translation>
+        <translation>N/D</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
@@ -115,7 +114,7 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="40"/>
         <source>Source:</source>
-        <translation>Fuente:</translation>
+        <translation>Origen:</translation>
     </message>
 </context>
 <context>
@@ -143,7 +142,7 @@
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="44"/>
         <source>GPS details</source>
-        <translation>Detalles GPS</translation>
+        <translation>Detalles del GPS</translation>
     </message>
 </context>
 <context>
@@ -206,7 +205,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="116"/>
         <source>Choose date</source>
-        <translation>Elegir fecha</translation>
+        <translation>Elija la fecha</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="117"/>
@@ -297,7 +296,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="169"/>
         <source>Choose date</source>
-        <translation>Elegir fecha</translation>
+        <translation>Elija la fecha</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="170"/>
