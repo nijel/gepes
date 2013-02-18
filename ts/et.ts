@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
@@ -7,37 +6,37 @@
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="27"/>
         <source>GPS and compass based tools</source>
-        <translation type="unfinished"></translation>
+        <translation>GPS- ja kompassipõhised tööriistad</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="31"/>
         <source>Version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Versioon:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="39"/>
         <source>Email:</source>
-        <translation type="unfinished"></translation>
+        <translation>Meil:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="43"/>
         <source>Website:</source>
-        <translation type="unfinished"></translation>
+        <translation>Veebileht:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="52"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="56"/>
         <source>Open website</source>
-        <translation type="unfinished"></translation>
+        <translation>Ava veebileht</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="60"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Toeta</translation>
     </message>
 </context>
 <context>
@@ -45,12 +44,12 @@
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
         <source>Azimuth:</source>
-        <translation type="unfinished"></translation>
+        <translation>Asimuut:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
         <source>accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>täpsus</translation>
     </message>
 </context>
 <context>
@@ -58,12 +57,12 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="10"/>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Positsioon</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="16"/>
         <source>Latitude:</source>
-        <translation type="unfinished"></translation>
+        <translation>Laius:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="16"/>
@@ -71,22 +70,22 @@
         <location filename="../qml/gepes/GPSBase.qml" line="24"/>
         <location filename="../qml/gepes/GPSBase.qml" line="28"/>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="20"/>
         <source>Longitude:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pikkus:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="24"/>
         <source>Altitude:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kõrgus:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="28"/>
         <source>Speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiirus:</translation>
     </message>
 </context>
 <context>
@@ -94,28 +93,28 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="26"/>
         <source>Accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>Täpsus</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
         <source>Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikaal:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
         <source>Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontaal:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="40"/>
         <source>Source:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lähtepunkt:</translation>
     </message>
 </context>
 <context>
@@ -123,27 +122,27 @@
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="23"/>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Tööriistad</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="29"/>
         <source>Sun</source>
-        <translation type="unfinished"></translation>
+        <translation>Päike</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="34"/>
         <source>Moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="39"/>
         <source>Compass</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompass</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="44"/>
         <source>GPS details</source>
-        <translation type="unfinished"></translation>
+        <translation>GPS detailid</translation>
     </message>
 </context>
 <context>
@@ -151,72 +150,72 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="48"/>
         <source>Moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="59"/>
         <source>Moon phase</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuu faas</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="77"/>
         <source>New moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Noorkuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="79"/>
         <source>Waxing crescent</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasvav kuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="81"/>
         <source>First quarter</source>
-        <translation type="unfinished"></translation>
+        <translation>Esimene veerand</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="83"/>
         <source>Waxing gibbous</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kasvav kuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="85"/>
         <source>Full moon</source>
-        <translation type="unfinished"></translation>
+        <translation>Täiskuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="87"/>
         <source>Waning gibbous</source>
-        <translation type="unfinished"></translation>
+        <translation>Kahanev kuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="89"/>
         <source>Last quarter</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimane veerand</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="91"/>
         <source>Waning crescent</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hajuv sirp</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="93"/>
         <source>Dark moon</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Pime kuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="116"/>
         <source>Choose date</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali kuupäev</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="117"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="118"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Tühista</translation>
     </message>
 </context>
 <context>
@@ -224,22 +223,22 @@
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="22"/>
         <source>Sensors</source>
-        <translation type="unfinished"></translation>
+        <translation>Sensorid</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
         <source>Refresh frequency:</source>
-        <translation type="unfinished"></translation>
+        <translation>Värskenduse sagedus:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
         <source>auto</source>
-        <translation type="unfinished"></translation>
+        <translation>automaatne</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="49"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljanägemine</translation>
     </message>
 </context>
 <context>
@@ -247,17 +246,17 @@
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="41"/>
         <source>Sun azimuth:</source>
-        <translation type="unfinished"></translation>
+        <translation>Päikese asimuut:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
         <source>Azimuth:</source>
-        <translation type="unfinished"></translation>
+        <translation>Asimuut:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
         <source>accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>täpsus</translation>
     </message>
 </context>
 <context>
@@ -265,49 +264,49 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="48"/>
         <source>Sun</source>
-        <translation type="unfinished"></translation>
+        <translation>Päike</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="58"/>
         <location filename="../qml/gepes/SunPage.qml" line="105"/>
         <source>Sun rise:</source>
-        <translation type="unfinished"></translation>
+        <translation>Päikese tõus:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="69"/>
         <source>Solar noon:</source>
-        <translation type="unfinished"></translation>
+        <translation>Päikese keskpäev:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="80"/>
         <location filename="../qml/gepes/SunPage.qml" line="119"/>
         <source>Sun set:</source>
-        <translation type="unfinished"></translation>
+        <translation>Päikese loojang:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="95"/>
         <source>Azimuth</source>
-        <translation type="unfinished"></translation>
+        <translation>Asimuut</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="132"/>
         <source>Sun position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Päikese positsioon:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="169"/>
         <source>Choose date</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali kuupäev</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="170"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="171"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Tühista</translation>
     </message>
 </context>
 </TS>
