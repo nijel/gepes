@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
@@ -49,7 +50,7 @@
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
         <source>accuracy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -93,7 +94,7 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="26"/>
         <source>Accuracy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
@@ -155,52 +156,52 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="59"/>
         <source>Moon phase</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="77"/>
         <source>New moon</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="79"/>
         <source>Waxing crescent</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="81"/>
         <source>First quarter</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="83"/>
         <source>Waxing gibbous</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="85"/>
         <source>Full moon</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="87"/>
         <source>Waning gibbous</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="89"/>
         <source>Last quarter</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="91"/>
         <source>Waning crescent</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="93"/>
         <source>Dark moon</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="116"/>
@@ -246,7 +247,7 @@
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="41"/>
         <source>Sun azimuth:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
@@ -256,7 +257,7 @@
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
         <source>accuracy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
