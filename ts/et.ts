@@ -57,7 +57,7 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="10"/>
         <source>Position</source>
-        <translation type="unfinished">Positsioon</translation>
+        <translation>Asukoht</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="16"/>
@@ -175,7 +175,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="83"/>
         <source>Waxing gibbous</source>
-        <translation type="unfinished">Kasvav kuu</translation>
+        <translation>Kasvav kuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="85"/>
@@ -195,12 +195,12 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="91"/>
         <source>Waning crescent</source>
-        <translation type="unfinished">Hajuv sirp</translation>
+        <translation>Hajuv sirp</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="93"/>
         <source>Dark moon</source>
-        <translation type="unfinished">Pime kuu</translation>
+        <translation>Noorkuu</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="116"/>
