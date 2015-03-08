@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="fr">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="27"/>
         <source>GPS and compass based tools</source>
-        <translation>Outils fondés sur Système de Positionnement Global et boussole</translation>
+        <translation>Outils fondés sur le Système de Positionnement Global et la boussole</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="31"/>
         <source>Version:</source>
-        <translation>Version : </translation>
+        <translation>Version:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="39"/>
         <source>Email:</source>
-        <translation>Courriel : </translation>
+        <translation>Courriel:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="43"/>
         <source>Website:</source>
-        <translation>Site Internet : </translation>
+        <translation>Site Web:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="52"/>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="56"/>
         <source>Open website</source>
-        <translation>Ouvrir site Internet</translation>
+        <translation>Ouvrir le Site Web</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="60"/>
@@ -45,7 +45,7 @@
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
         <source>Azimuth:</source>
-        <translation>Azimut : </translation>
+        <translation>Azimut:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
@@ -63,7 +63,7 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="16"/>
         <source>Latitude:</source>
-        <translation>Latitude : </translation>
+        <translation>Latitude:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="16"/>
@@ -76,17 +76,17 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="20"/>
         <source>Longitude:</source>
-        <translation>Longitude : </translation>
+        <translation>Longitude:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="24"/>
         <source>Altitude:</source>
-        <translation>Altitude : </translation>
+        <translation>Altitude:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="28"/>
         <source>Speed:</source>
-        <translation>Vitesse : </translation>
+        <translation>Vitesse:</translation>
     </message>
 </context>
 <context>
@@ -99,7 +99,7 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
         <source>Vertical:</source>
-        <translation>Vertical : </translation>
+        <translation>Vertical:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
@@ -110,12 +110,12 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
         <source>Horizontal:</source>
-        <translation>Horizontal : </translation>
+        <translation>Horizontal:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="40"/>
         <source>Source:</source>
-        <translation>Source : </translation>
+        <translation>Source:</translation>
     </message>
 </context>
 <context>
@@ -138,7 +138,7 @@
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="39"/>
         <source>Compass</source>
-        <translation>Compas</translation>
+        <translation>Boussole</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MainPage.qml" line="44"/>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="116"/>
         <source>Choose date</source>
-        <translation>Choisis la date</translation>
+        <translation>Choisir la date</translation>
     </message>
     <message>
         <location filename="../qml/gepes/MoonPage.qml" line="117"/>
@@ -229,7 +229,7 @@
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
         <source>Refresh frequency:</source>
-        <translation>Fréquence de rafraîchissement : </translation>
+        <translation>Fréquence de rafraîchissement:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
@@ -239,7 +239,7 @@
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="49"/>
         <source>Appearance</source>
-        <translation>Apparance</translation>
+        <translation>Apparence</translation>
     </message>
 </context>
 <context>
@@ -247,17 +247,17 @@
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="41"/>
         <source>Sun azimuth:</source>
-        <translation>Azimut du soleil : </translation>
+        <translation>Azimut du soleil:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
         <source>Azimuth:</source>
-        <translation>Azimut : </translation>
+        <translation>Azimut:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
         <source>accuracy</source>
-        <translation>Exactitude</translation>
+        <translation>exactitude</translation>
     </message>
 </context>
 <context>
@@ -271,18 +271,18 @@
         <location filename="../qml/gepes/SunPage.qml" line="58"/>
         <location filename="../qml/gepes/SunPage.qml" line="105"/>
         <source>Sun rise:</source>
-        <translation>Lever de soleil : </translation>
+        <translation>Lever de soleil:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="69"/>
         <source>Solar noon:</source>
-        <translation>Soleil de midi : </translation>
+        <translation>Midi solaire:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="80"/>
         <location filename="../qml/gepes/SunPage.qml" line="119"/>
         <source>Sun set:</source>
-        <translation>Coucher de soleil : </translation>
+        <translation>Coucher de soleil:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="95"/>
@@ -292,12 +292,12 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="132"/>
         <source>Sun position:</source>
-        <translation>Postion du Soleil : </translation>
+        <translation>Positon du Soleil:</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="169"/>
         <source>Choose date</source>
-        <translation>Choisis la date</translation>
+        <translation>Choisir la date</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="170"/>
