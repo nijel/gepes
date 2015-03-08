@@ -99,7 +99,7 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
         <source>Vertical:</source>
-        <translation type="unfinished">Vertical:</translation>
+        <translation>Verticale :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="32"/>
@@ -110,12 +110,12 @@
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="36"/>
         <source>Horizontal:</source>
-        <translation>Horizontal:</translation>
+        <translation>Horizontale :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSPage.qml" line="40"/>
         <source>Source:</source>
-        <translation>Source:</translation>
+        <translation>Source :</translation>
     </message>
 </context>
 <context>
@@ -229,7 +229,7 @@
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
         <source>Refresh frequency:</source>
-        <translation>Fréquence de rafraîchissement:</translation>
+        <translation>Fréquence de rafraîchissement :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SettingsPage.qml" line="28"/>
@@ -247,12 +247,12 @@
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="41"/>
         <source>Sun azimuth:</source>
-        <translation>Azimut du soleil:</translation>
+        <translation>Azimut du soleil :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
         <source>Azimuth:</source>
-        <translation>Azimut:</translation>
+        <translation>Azimut :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunCompassPage.qml" line="49"/>
@@ -271,18 +271,18 @@
         <location filename="../qml/gepes/SunPage.qml" line="58"/>
         <location filename="../qml/gepes/SunPage.qml" line="105"/>
         <source>Sun rise:</source>
-        <translation>Lever de soleil:</translation>
+        <translation>Lever de soleil :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="69"/>
         <source>Solar noon:</source>
-        <translation>Midi solaire:</translation>
+        <translation>Midi solaire :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="80"/>
         <location filename="../qml/gepes/SunPage.qml" line="119"/>
         <source>Sun set:</source>
-        <translation>Coucher de soleil:</translation>
+        <translation>Coucher de soleil :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="95"/>
@@ -292,7 +292,7 @@
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="132"/>
         <source>Sun position:</source>
-        <translation>Positon du Soleil:</translation>
+        <translation>Position du Soleil :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/SunPage.qml" line="169"/>
