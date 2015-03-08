@@ -12,17 +12,17 @@
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="31"/>
         <source>Version:</source>
-        <translation>Version:</translation>
+        <translation>Version :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="39"/>
         <source>Email:</source>
-        <translation>Courriel:</translation>
+        <translation>Courriel :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="43"/>
         <source>Website:</source>
-        <translation>Site Web:</translation>
+        <translation>Site Web :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="52"/>
@@ -45,7 +45,7 @@
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
         <source>Azimuth:</source>
-        <translation>Azimut:</translation>
+        <translation>Azimut :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/CompassPage.qml" line="29"/>
@@ -63,7 +63,7 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="16"/>
         <source>Latitude:</source>
-        <translation>Latitude:</translation>
+        <translation>Latitude :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="16"/>
@@ -76,17 +76,17 @@
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="20"/>
         <source>Longitude:</source>
-        <translation>Longitude:</translation>
+        <translation>Longitude :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="24"/>
         <source>Altitude:</source>
-        <translation>Altitude:</translation>
+        <translation>Altitude :</translation>
     </message>
     <message>
         <location filename="../qml/gepes/GPSBase.qml" line="28"/>
         <source>Speed:</source>
-        <translation>Vitesse:</translation>
+        <translation>Vitesse :</translation>
     </message>
 </context>
 <context>
