@@ -27,7 +27,7 @@
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="52"/>
         <source>Ok</source>
-        <translation>Ok</translation>
+        <translation>Valider</translation>
     </message>
     <message>
         <location filename="../qml/gepes/AboutDialog.qml" line="56"/>
